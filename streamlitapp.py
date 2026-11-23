@@ -5,7 +5,7 @@ import joblib
 # Load the trained model
 model = joblib.load("house_price_model.pkl")
 
-st.title("California House Price Prediction")
+st.title("House Price Prediction")
 st.write("Enter the details of the house to predict its price.")
 
 #User Inputs
